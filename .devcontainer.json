@@ -1,1 +1,10 @@
-{"image":"mcr.microsoft.com/devcontainers/java"}
+{
+    "image": "mcr.microsoft.com/devcontainers/java",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "shrey150.javafx-support"
+            ]
+        }
+    },
+}
