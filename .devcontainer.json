@@ -1,5 +1,5 @@
 {
-    "image": "mjalas/javafx",
+    "image": "docker pull techthinkerorg/javafx:1.0.0",
     "customizations": {
         "vscode": {
             "extensions": [
