@@ -1,5 +1,5 @@
 {
-    "image": "techthinkerorg/javafx:1.0.0",
+    "image": "mcr.microsoft.com/devcontainers/java",
     "customizations": {
         "vscode": {
             "extensions": [
