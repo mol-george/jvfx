@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/java",
+    "image": "mjalas/javafx",
     "customizations": {
         "vscode": {
             "extensions": [
