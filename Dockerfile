@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/java:21
 
 # Install necessary tools
-RUN apt-get update && apt-get install -y wget unzip && apt-get clean
+RUN apt-get update && apt-get install -y wget unzip libx11-dev && apt-get clean
 
 # Download and set up JavaFX
 RUN wget --quiet https://download2.gluonhq.com/openjfx/23.0.1/openjfx-23.0.1_linux-aarch64_bin-sdk.zip \
