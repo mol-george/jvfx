@@ -7,6 +7,7 @@ This documents the process of trying to establish the best process for developin
 * [setup-vscode-for-java-and-javafx.md](docs/setup-vscode-for-java-and-javafx.md)
 * [run-javafx-apps-using-cli.md](docs/run-javafx-apps-using-cli.md)
 * [run-javafx-apps-using-devpods.md](docs/run-javafx-apps-using-devpods.md)
+* [run-javafx-apps-in-docker.md](docs/run-javafx-apps-in-docker.md)
 
 ## next
 * consider using [devpod](https://devpod.sh/)
