@@ -1,7 +1,7 @@
-## Introdução
+# jvfx
 
-Seja bem vindo!
-Se você curtiu a extensão, não esqueça de deixar uma avaliação!
+This documents the process of trying to establish the best process for developing javaFX applications on ARM Macs.
 
-Siga o canal no YouTube:
-- Academia dos Devs
+## docs
+* [setup-java-and-javafx-sdk.md](docs/setup-java-and-javafx-sdk.md)
+* [setup-vscode-for-java-and-javafx.md](docs/setup-vscode-for-java-and-javafx.md)
