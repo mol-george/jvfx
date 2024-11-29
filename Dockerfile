@@ -1,19 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/java:21
 
-# Install necessary tools
-RUN apt-get update && apt-get install -y wget unzip libx11-dev && apt-get clean
+# Install required packages
+RUN apt update && \
+    apt install -y x11-apps libarchive-tools libgtk-3-0 libglib2.0-0 libx11-6 libasound2 libnss3 libxext6 libxrender1 libxtst6 libxi6 libxrandr2
 
-# Download and set up JavaFX
-RUN wget --quiet https://download2.gluonhq.com/openjfx/23.0.1/openjfx-23.0.1_linux-aarch64_bin-sdk.zip \
-    && unzip openjfx-23.0.1_linux-aarch64_bin-sdk.zip -d /usr/local \
-    && rm openjfx-23.0.1_linux-aarch64_bin-sdk.zip
-
-# Set working directory
-WORKDIR /app
-
-# Compile the application
-RUN mkdir -p bin \
-    && javac --module-path /usr/local/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml -d bin src/App.java
-
-# Run the application
-CMD ["java", "--module-path", "/usr/local/javafx-sdk-23.0.1/lib", "--add-modules", "javafx.controls,javafx.fxml", "-cp", "bin", "App"]
+RUN curl -sSL "https://download2.gluonhq.com/openjfx/21.0.5/openjfx-21.0.5_linux-x64_bin-sdk.zip" | bsdtar -xvf- -C /usr/lib/jvm/
