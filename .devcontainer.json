@@ -1,5 +1,5 @@
 {
-    "image": "jvfx-amd64:latest",
+    "image": "molgeorge/jvfx-amd64:latest",
     "customizations": {
         "vscode": {
             "extensions": [
