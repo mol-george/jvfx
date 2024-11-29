@@ -1,14 +1,6 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx-swt.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.base.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.controls.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.fxml.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.graphics.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.media.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.swing.jar",
-        "javafx-sdk-21.0.5-local/lib/javafx.web.jar",
         "/Users/george.moldoveanu/java/javafx-sdk-21.0.5/lib/javafx-swt.jar",
         "/Users/george.moldoveanu/java/javafx-sdk-21.0.5/lib/javafx.base.jar",
         "/Users/george.moldoveanu/java/javafx-sdk-21.0.5/lib/javafx.controls.jar",
