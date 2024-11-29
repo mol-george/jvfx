@@ -16,7 +16,7 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Create a label to display "Hello, World!" with styling
-        Label helloLabel = new Label("Hello, World!");
+        Label helloLabel = new Label("Hello, Catherine!");
         helloLabel.setStyle(
                 "-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);");
 
